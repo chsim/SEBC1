@@ -2,7 +2,6 @@
 =======================================================================
 /etc/yum.repos.d/cloudera-manager.repo
 =======================================================================
-```
 [cloudera-manager]
 name = Cloudera Manager, Version 5.8.2
 baseurl = https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.8.2/
@@ -14,7 +13,6 @@ gpgcheck = 1
 =======================================================================
 SCM_PREPARE_DATABASE.SH
 =======================================================================
-```
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql amon amon 'ZAQ!zaq112'
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql rman rman 'ZAQ!zaq112'
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql metastore hive 'ZAQ!zaq112'
