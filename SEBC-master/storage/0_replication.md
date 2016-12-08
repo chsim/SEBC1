@@ -1,7 +1,9 @@
 
+```
 =======================================================================================================
 TERAGEN CREATE FILE
 =======================================================================================================
+```
 sudo -u hdfs hadoop fs -ls
 
 
@@ -60,9 +62,11 @@ HADOOP_USER_NAME=hdfs hadoop jar hadoop-examples.jar teragen 5242880 /user/hdfs/
                 Bytes Written=524288000
 
 
+```
 =======================================================================================================
 distCp
 =======================================================================================================
+```
 
 [centos@ip-172-31-5-138 h]$ HADOOP_USER_NAME=hdfs hadoop distcp hdfs://172.31.5.138/user/snowbite_test12 hdfs://172.31.13.100/user/hdfs/eugene12
 16/12/07 07:10:53 INFO tools.DistCp: Input Options: DistCpOptions{atomicCommit=false, syncFolder=false, deleteMissing=false, ignoreFailures=false, overwrite=false, skipCRC=false, blocking=true, numListstatusThreads=0, maxMaps=20, mapBandwidth=100, sslConfigurationFile='null', copyStrategy='uniformsize', preserveStatus=[], preserveRawXattrs=false, atomicWorkPath=null, logPath=null, sourceFileListing=null, sourcePaths=[hdfs://172.31.5.138/user/snowbite_test12], targetPath=hdfs://172.31.13.100/user/hdfs/eugene12, targetPathExists=false, filtersFile='null'}
@@ -131,10 +135,11 @@ distCp
 
 
 
+```
 =======================================================================================================
 HDFS FSCK SOURCE DIRECTORY
 =======================================================================================================
-
+```
 
 
 [centos@ip-172-31-5-138 examples]$ sudo -u hdfs hdfs fsck /user/hdfs/sch1
@@ -166,11 +171,11 @@ The filesystem under path '/user/hdfs/sch1' is HEALTHY
 
 
 
-
+```
 =======================================================================================================
-HDFS FSCK TARGET SOURCE DIRECTORY
+HDFS FSCK TARGET DIRECTORY
 =======================================================================================================
-
+```
 [centos@ip-172-31-5-138 examples]$ sudo -u hdfs hdfs fsck hdfs://172.31.5.138/user/snowbite_test12
 Connecting to namenode via http://ip-172-31-5-138.ap-southeast-1.compute.internal:50070
 FSCK started by hdfs (auth:SIMPLE) from /172.31.5.138 for path hdfs://172.31.5.138/user/snowbite_test12 at Wed Dec 07 08:09:42 UTC 2016
