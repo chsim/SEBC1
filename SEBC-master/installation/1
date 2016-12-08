@@ -1,2 +1,0 @@
-sudo vi /etc/sysctl.conf
-vm.swappiness=1
