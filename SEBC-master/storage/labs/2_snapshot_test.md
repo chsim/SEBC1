@@ -22,7 +22,6 @@ REMOVE PRECIOUS DIRECTORY
 rmdir: `/user/hdfs/precious': Directory is not empty
 [centos@ip-172-31-5-138 ~]$
 
-
 rmdir: `/user/hdfs/precious': Directory is not empty
 ```
 
@@ -31,18 +30,7 @@ rmdir: `/user/hdfs/precious': Directory is not empty
 =========================================================================
 REMOVE ZIP FILE
 =========================================================================
-```
  [centos@ip-172-31-5-138 ~]$ sudo -u hdfs hdfs dfs -rm 
 /user/hdfs/precious/pyspark.zip
 16/12/07 22:14:48 INFO fs.TrashPolicyDefault: Moved: 'hdfs://nameservice1/user/hdfs/precious/pyspark.zip' to trash at: hdfs://nameservice1/user/hdfs/.Trash/Current/user/hdfs/precious/pyspark.zip1481148888939
 ```
-
-
-
-
-
-
-
-
-
-
