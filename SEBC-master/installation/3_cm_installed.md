@@ -1,4 +1,4 @@
-```
+```sh
 =======================================================================
 /etc/yum.repos.d/cloudera-manager.repo
 =======================================================================
@@ -8,8 +8,9 @@ name = Cloudera Manager, Version 5.8.2
 baseurl = https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.8.2/
 gpgkey = https://archive.cloudera.com/redhat/cdh/RPM-GPG-KEY-cloudera
 gpgcheck = 1
-
 ```
+
+```sh
 =======================================================================
 SCM_PREPARE_DATABASE.SH
 =======================================================================
@@ -74,4 +75,5 @@ mysql> show grants for navms;
 | GRANT ALL PRIVILEGES ON `navms`.* TO 'navms'@'%' |
 +--------------------------------------------------+
 2 rows in set (0.01 sec)
+```
 
