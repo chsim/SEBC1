@@ -1,7 +1,7 @@
 ```sh
-=======================================================================
+===================================================================================================
 /etc/yum.repos.d/cloudera-manager.repo
-=======================================================================
+===================================================================================================
 [cloudera-manager]
 name = Cloudera Manager, Version 5.8.2
 baseurl = https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.8.2/
@@ -10,9 +10,9 @@ gpgcheck = 1
 ```
 
 ```sh
-=======================================================================
+===================================================================================================
 SCM_PREPARE_DATABASE.SH
-=======================================================================
+===================================================================================================
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql amon amon 'ZAQ!zaq112'
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql rman rman 'ZAQ!zaq112'
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql metastore hive 'ZAQ!zaq112'
@@ -75,3 +75,11 @@ mysql> show grants for navms;
 2 rows in set (0.01 sec)
 ```
 
+
+```sh
+===================================================================================================
+Renaming a Cluster (Sorry, overlooked)
+===================================================================================================
+On the Home page of the cluster, click  to the right of the cluster name and select Rename Cluster.
+Type the new cluster name and click Rename Cluster.
+```
