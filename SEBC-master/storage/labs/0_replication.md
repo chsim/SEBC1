@@ -3,7 +3,6 @@
 =======================================================================================================
 TERAGEN CREATE FILE
 =======================================================================================================
-```
 sudo -u hdfs hadoop fs -ls
 
 
@@ -166,16 +165,13 @@ FSCK ended at Wed Dec 07 08:08:27 UTC 2016 in 3 milliseconds
 
 The filesystem under path '/user/hdfs/sch1' is HEALTHY
 [centos@ip-172-31-5-138 examples]$
-
-
-
-
-
 ```
+
+
+```sh
 =======================================================================================================
 HDFS FSCK TARGET DIRECTORY
 =======================================================================================================
-```
 [centos@ip-172-31-5-138 examples]$ sudo -u hdfs hdfs fsck hdfs://172.31.5.138/user/snowbite_test12
 Connecting to namenode via http://ip-172-31-5-138.ap-southeast-1.compute.internal:50070
 FSCK started by hdfs (auth:SIMPLE) from /172.31.5.138 for path hdfs://172.31.5.138/user/snowbite_test12 at Wed Dec 07 08:09:42 UTC 2016
