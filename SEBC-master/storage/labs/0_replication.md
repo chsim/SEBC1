@@ -136,8 +136,6 @@ distCp
 =======================================================================================================
 HDFS FSCK SOURCE DIRECTORY
 =======================================================================================================
-```
-
 
 [centos@ip-172-31-5-138 examples]$ sudo -u hdfs hdfs fsck /user/hdfs/sch1
 Connecting to namenode via http://ip-172-31-5-138.ap-southeast-1.compute.internal:50070
